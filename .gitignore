@@ -1,0 +1,16 @@
+# Ignore vscode specific
+.vscode
+!.vscode/config.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Ignore dynaconf secret files
+.secrets.*
+
+# Ignore compilation files
+__pycache__
+/dist
+/data
+.pytest*

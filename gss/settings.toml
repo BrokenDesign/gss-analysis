@@ -1,0 +1,21 @@
+[execution.download]
+execute = true
+overwrite = false
+
+[exeuction.import_data]
+execute = true
+overwrite = true
+
+[gss]
+url="https://gss.norc.org/documents/stata/GSS_stata.zip"
+raw="data/gss_stata.zip"
+data="data/gss.data.arrows"
+layout="gss/layouts/gss.metadata.pickle"
+codebook = "gss/layouts/gss.codebook.json"
+
+[gss.archive]
+data = "gss7221_r3b.dta"
+codebook = "2021 GSS Codebook R3b.pdf"
+variables = "R3b Release Variables v1.pdf"
+notes = "Release Notes 7221.pdf"
+

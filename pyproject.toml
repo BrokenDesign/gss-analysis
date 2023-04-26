@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "gss"
+version = "0.1.0"
+description = ""
+authors = ["Br0k3nDesign <adam.j.moran@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+polars = "^0.16.13"
+plotly-express = "^0.4.1"
+seaborn = "^0.12.2"
+python-box = "^7.0.1"
+functional = "^0.4"
+requests = "^2.28.2"
+srsly = "^2.4.6"
+pyarrow = "^11.0.0"
+yellowbrick = "^1.5"
+scipy = "^1.10.1"
+torch = "^2.0.0"
+torchvision = "^0.15.1"
+torchaudio = "^2.0.1"
+scikit-learn = "^1.2.2"
+xgboost = "^1.7.4"
+dynaconf = "^3.1.12"
+pypdf2 = "^3.0.1"
+pyreadstat = "^1.2.1"
+pyfunctional = "^1.4.3"
+tabulate = "^0.9.0"
+pick = "^2.2.0"
+tqdm = "^4.65.0"
+serpy = "^0.3.1"
+more-itertools = "^9.1.0"
+pydantic = "^1.10.7"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+pytest = "^7.2.2"
+pyflame = "^0.3.0"
+flamegraph = "^0.1"
+time-it = "^3"
+py-spy = "^0.3.14"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
